@@ -1,0 +1,15 @@
+spring:
+  profiles:
+   include: native,default
+  cloud:
+   config:
+     discovery:
+       enabled: false
+     server:
+      native:
+       searchLocations: D:/ust/configuration
+      encrypt:
+       enabled: true
+server:
+  port: 8888
+  
